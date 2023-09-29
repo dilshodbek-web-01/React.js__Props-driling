@@ -1,0 +1,36 @@
+header {
+  width: 100%;
+
+  .nav {
+    height: 77px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &-logo {
+      color: lime;
+    }
+
+    &__list {
+      text-transform: uppercase;
+      padding-top: 15px;
+
+      &--item {
+        list-style-type: none;
+
+        a {
+          text-decoration: none;
+          color: lime;
+
+          &:hover {
+            color: green;
+          }
+        }
+      }
+    }
+
+    select {
+      width: 95px;
+    }
+  }
+}
